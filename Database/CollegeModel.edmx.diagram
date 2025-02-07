@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b3558e559a849f68b9ede903588d781" Name="Diagram1">
+        <EntityTypeShape EntityType="CollegeModel.Account" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.Grade" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.Group" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.GroupMember" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.Role" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.Schedule" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.Subject" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeModel.TeacherSubject" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="CollegeModel.FK_Account_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_Grade_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_GroupMembers_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_Schedule_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_TeacherSubject_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_Grade_Subject" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_Schedule_Subject" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeModel.FK_TeacherSubject_Subject" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,23 @@
+﻿<Page x:Class="SiteKtkPlagiatAnother.Pages.MainMenuForAdmin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiteKtkPlagiatAnother.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainMenuForAdmin">
+
+    <Grid>
+        <Button Content="Выход" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="20,20,0,0" Width="58"/>
+        <TextBlock Text="Имя пользователя (Админ)"  HorizontalAlignment="Right"  VerticalAlignment="Top" Margin="0,20,20,0"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Управление расписанием" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="28"/>
+            <Button Content="Управление пользователями" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,15,0,0" Height="28"/>
+            <Button Content="Управление группами" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,15,0,0" Height="28"/>
+            <Button Click="OpenStudentochki" Content="Просмотр студенток" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,15,0,0" Height="28"/>
+        </StackPanel>
+
+
+    </Grid>
+</Page>
